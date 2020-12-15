@@ -40,6 +40,8 @@ function Login() {
           photo: photoURL
       }
       setUser(signedInUser);
+      setLoggedInUser(signedInUser) //context ar state ar moddde setLoggedInUsera newUserInfo set kore dialm
+      history.replace(from); // log in korer por jekane jete chay sekhne nia jabe
     })
 
     .catch(err =>{//kno karon e error kheye gele amra console log korchi

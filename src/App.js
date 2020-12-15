@@ -29,7 +29,7 @@ function App() {
   const [loggedInUser , setLoggedInUser] = useState({}); //change hoite pare abr nao pare
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
-      <h3>Email:{loggedInUser.email}</h3> {/* jehetu login user a amra signinwithEmailpassword a setLoggedInUser(newUserInfo) set krsi */}
+    {/*  <h3>Email:{loggedInUser.email}</h3>  jehetu login user a amra signinwithEmailpassword a setLoggedInUser(newUserInfo) set krsi */}
       
       <Router>
       <Header></Header>

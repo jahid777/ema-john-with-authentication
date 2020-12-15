@@ -13,6 +13,7 @@ const Header = () => {
                 <Link to ="/review">Order Review</Link>
                 <Link to = "/manage">Manage Inventory</Link>
                 <Link to = "/">{loggedInUser.email} </Link>
+                <button onClick={()=>setLoggedInUser({})} style={{height: '45px'}}>Sign out</button>
             </nav> 
         </div>
     );
